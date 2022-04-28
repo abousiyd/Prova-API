@@ -2,6 +2,8 @@
 
 Esta prueba replica una actualización de stocks periodica.
 
+**Haz un fork del proyecto y sube ahi tu solución, no subas los cambios en este proyecto.**
+
 para ejecutar el codigo usa [ts-node](https://yarnpkg.com/package/ts-node) (ya esta en el package.json), usa yarn para gestionar los paquetes, despues de clonar ejecutando "yarn" ya deberia instalar todas las dependencias
 
 Tenemos 2 funciones separadas en 2 archivos.
