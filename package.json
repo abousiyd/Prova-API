@@ -1,0 +1,18 @@
+{
+  "name": "prova-api-solucio",
+  "packageManager": "yarn@3.2.0",
+  "compilerOptions": {
+    "esModuleInterop": true
+  },
+  "dependencies": {
+    "@types/node": "^17.0.29",
+    "sleepjs": "^4.0.3",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -x ts-node src/App.ts",
+    "start": "ts-node src/updateStock/updateStock.ts"
+  }
+}
