@@ -1,4 +1,6 @@
+import 'dotenv/config'
 import { sleep } from "sleepjs"
+
 
 export const getStock = async (data: any): Promise<any> => {
     return await new Promise(async (res, rej) => {
